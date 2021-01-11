@@ -1,0 +1,158 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    color: white;
+    font-family: monospace;
+    border: none;
+    border-radius: 8px;
+    margin: 1em;
+    font-weight: bold;
+}
+.btn-dis{
+    color: gray;
+    border-radius: 8px;
+    border: solid lightgray 1px;
+}
+.btn-large{
+    width: 10vmax;
+    height: 4vmax;
+}
+.btn-Med{
+    width: 8vmax;
+    height: 3vmax;
+}
+.btn-background{
+    background: linear-gradient(90deg, rgb(37, 197, 197), navy) ;
+}
+.btn-fontLarge{
+    font-size: 1.2vw;
+}
+.btn-fontMed{
+    font-size: 1vw;
+}
+.btn-shadow{
+    box-shadow: 0px 3px 6px 1px gray; 
+}
+.esc{
+    font-size: 0.8vmax;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.Search{
+    margin: 1em;
+    display: flex;
+    padding-bottom: 0;
+    border-bottom: solid lightgray 2px ;
+    border-bottom-width: 1px;
+    margin-bottom: 2em;
+}
+.Search > input{
+    width: 100%;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.member{
+    margin: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: solid gray 1px;
+    flex-wrap: nowrap;
+    border-radius: 3px;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.member > input, .member > label, .Search > input, .Search > i{
+    margin: 0.5em;
+}
+.member > label >i{
+    margin-right: 0.6em;
+}
+.member > input{
+    order:2;
+    margin-left: auto;
+}
+.member > label{
+    order:1;
+}
+#AddMemebrsList{
+    display: block;
+    width: 100%;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    box-sizing: border-box;
+}
+.Search > i{
+    color:gray;
+    margin-right: 0.1em;
+}
+.member > i, .member > label{
+    color: gray;
+}
+.member > input[type=checkbox]{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid #ddd;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.member > input[type=checkbox]:checked{
+    background-color:white;
+    border-color: rgb(28, 181, 28);
+    appearance: initial;
+    color:  rgb(28, 181, 28);
+    text-align: center;
+}
+.member > input[type=checkbox]::before {
+    width: 1.5em;
+    height: 1.5em;
+    position: absolute;
+    content: '';
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+}
+.member > input[type=checkbox]:checked::after {
+    border-color: rgb(28, 181, 28);
+    content: '\2714';
+    display: block;
+    position: relative;
+    z-index: 100;
+    font-weight: bold;
+    text-align: center;
+}
+.member > input[type=checkbox]:checked + .label-check  {
+    color: #333;
+    font-weight: bold;
+}
+.headerMembers{
+    display: flex;
+    margin: 1em;
+}
+.headerMembers > .title{
+    margin-right: auto;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+}
+.headerMembers > .exit{
+    margin-left: auto;
+    color: lightgray;
+    cursor: pointer;
+}
+.Search > input[type=search]:focus{
+    outline: none !important;
+}
