@@ -122,7 +122,6 @@ body{
     position: absolute;
     content: '';
     display: inline-block;
-    font-size: 1em;
     text-align: center;
 }
 .member > input[type=checkbox]:checked::after {
@@ -130,6 +129,8 @@ body{
     content: '\2714';
     display: block;
     position: relative;
+    bottom: 0.25px;
+    right: 0.20px;
     z-index: 100;
     font-weight: bold;
     text-align: center;
