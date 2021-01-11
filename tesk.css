@@ -24,6 +24,7 @@ body{
 }
 .btn-background{
     background: linear-gradient(90deg, rgb(37, 197, 197), navy) ;
+    opacity: 0.8;
 }
 .btn-fontLarge{
     font-size: 1.2vw;
