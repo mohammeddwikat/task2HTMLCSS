@@ -148,10 +148,12 @@ body{
 .headerMembers{
     display: flex;
     margin: 1em;
+    margin-top: 0em;
+    margin-bottom: 2.5em;
 }
 .headerMembers > .title{
     margin-right: auto;
-    align-self: center;
+    align-self: flex-end;
     color: black;
     font-weight: bold;
 }
@@ -159,6 +161,7 @@ body{
     margin-left: auto;
     color: lightgray;
     cursor: pointer;
+    align-self: flex-start;
 }
 .Search > input[type=search]:focus{
     outline: none !important;
