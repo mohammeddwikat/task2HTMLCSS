@@ -36,7 +36,7 @@ body{
     box-shadow: 0px 3px 6px 1px gray; 
 }
 .esc{
-    font-size: 0.3em;
+    font-size: 0.22em;
     text-align: center;
     position: relative;
     top: -0.5em;
@@ -156,11 +156,12 @@ body{
     margin-top: 0em;
     margin-bottom: 2.5em;
 }
-.headerMembers > .title{
+.headerMembers > .titleMembers{
     margin-right: auto;
     align-self: flex-end;
     color: black;
     font-weight: bold;
+    font-size: 0.9em;
 }
 .headerMembers > .exit{
     margin-left: auto;
